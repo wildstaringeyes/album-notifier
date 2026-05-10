@@ -148,7 +148,7 @@ def post_to_discord(embed):
     try:
         response = requests.post(
             DISCORD_WEBHOOK_URL,
-            json={"content": "🎧 **Today's Album of the Day!** 🎵", "embeds": [embed]},
+            json={"content": "🎧 **Hey Album Adventurers - here is your album of the week!** 🎵", "embeds": [embed]},
             timeout=15,
         )
         response.raise_for_status()
