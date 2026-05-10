@@ -10,7 +10,7 @@ on:
     #   9am US Eastern = '0 13 * * 1-5'
     #   8am US Pacific = '0 15 * * 1-5'
     #   9am UK         = '0 9 * * 1-5'
-    - cron: '0 14 * * 1'
+    - cron: '0 15 * * 0'
   workflow_dispatch:
 
 jobs:
